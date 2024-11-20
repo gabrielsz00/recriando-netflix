@@ -14,7 +14,7 @@ entrar.addEventListener('click', () =>{
     email = iemail.value
     senha = isenha.value
 
-    if (email == 'gabrielsturmerzacaron08@gmail.com' && senha == '123'){
+    if (email == '' && senha == ''){
 window.location.href = "home.html"
     }else{
 // iemail.style.backgroundColor = '#360505'
